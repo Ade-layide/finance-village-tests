@@ -1,0 +1,22 @@
+{
+  "name": "finance-village-tests",
+  "version": "1.0.0",
+  "description": "Functional UI e2e test cases on the finance Village web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ade-layide/finance-village-tests.git"
+  },
+  "author": "Olayide",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ade-layide/finance-village-tests/issues"
+  },
+  "homepage": "https://github.com/Ade-layide/finance-village-tests#readme",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  }
+}
