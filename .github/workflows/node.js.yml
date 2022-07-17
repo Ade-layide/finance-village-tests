@@ -21,4 +21,4 @@ jobs:
       with:
         node-version: "14.x"
     - run: npm i
-    - run: npm ci_test
+    - run: npm cy_run
