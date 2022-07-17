@@ -4,7 +4,7 @@
   "description": "Functional UI e2e test cases on the finance Village web application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ci_test": "cypress run"
   },
   "repository": {
     "type": "git",
