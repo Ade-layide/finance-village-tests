@@ -4,7 +4,8 @@
   "description": "Functional UI e2e test cases on the finance Village web application",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "cy:open" : "cypress open"
   },
   "repository": {
     "type": "git",
@@ -17,9 +18,12 @@
   },
   "homepage": "https://github.com/Ade-layide/finance-village-tests#readme",
   "devDependencies": {
-    "cypress": "^10.3.0"
+    "cypress": "^10.3.0",
+    "cypress-mochawesome-reporter": "^3.2.0",
+    "mochawesome": "^7.1.3"
   },
   "dependencies": {
-    "chai": "^4.3.6"
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
   }
 }
