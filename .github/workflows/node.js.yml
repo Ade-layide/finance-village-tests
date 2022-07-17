@@ -21,4 +21,4 @@ jobs:
       with:
         node-version: "14.x"
     - run: npm i
-    - run: npm cy_run
+    - run: npm cypress_run
