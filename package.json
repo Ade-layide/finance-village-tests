@@ -4,7 +4,7 @@
   "description": "Functional UI e2e test cases on the finance Village web application",
   "main": "index.js",
   "scripts": {
-    "ci_test": "cypress run"
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
